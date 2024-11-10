@@ -1,8 +1,8 @@
 import { Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from "react";
-import { fetchCTUSER } from "../services/CTUSERService"
-import { CTUSERList } from "../types";
+import { fetchCTUSER } from "../../services/CTUSERService"
+import { CTUSERList } from "../../types";
 
 const Data01Table = () => {
     const [users, setUsers] = useState<CTUSERList[]>([]);
